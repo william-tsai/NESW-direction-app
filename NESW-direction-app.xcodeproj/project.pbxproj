@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BC5D431420105D1900C43760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D431320105D1900C43760 /* AppDelegate.swift */; };
-		BC5D431620105D1900C43760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D431520105D1900C43760 /* ViewController.swift */; };
+		BC5D431620105D1900C43760 /* NESWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D431520105D1900C43760 /* NESWViewController.swift */; };
 		BC5D431920105D1900C43760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5D431720105D1900C43760 /* Main.storyboard */; };
 		BC5D431B20105D1900C43760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5D431A20105D1900C43760 /* Assets.xcassets */; };
 		BC5D431E20105D1900C43760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5D431C20105D1900C43760 /* LaunchScreen.storyboard */; };
 		BC5D432920105D1900C43760 /* NESW_direction_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D432820105D1900C43760 /* NESW_direction_appTests.swift */; };
 		BC5D433420105D1900C43760 /* NESW_direction_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5D433320105D1900C43760 /* NESW_direction_appUITests.swift */; };
+		BC7DC37B20128F6B00D28FC0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7DC37A20128F6B00D28FC0 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		BC5D431020105D1900C43760 /* NESW-direction-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NESW-direction-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5D431320105D1900C43760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC5D431520105D1900C43760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC5D431520105D1900C43760 /* NESWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESWViewController.swift; sourceTree = "<group>"; };
 		BC5D431820105D1900C43760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC5D431A20105D1900C43760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5D431D20105D1900C43760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		BC5D432F20105D1900C43760 /* NESW-direction-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NESW-direction-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5D433320105D1900C43760 /* NESW_direction_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESW_direction_appUITests.swift; sourceTree = "<group>"; };
 		BC5D433520105D1900C43760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7DC37A20128F6B00D28FC0 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				BC5D431320105D1900C43760 /* AppDelegate.swift */,
-				BC5D431520105D1900C43760 /* ViewController.swift */,
+				BC5D431520105D1900C43760 /* NESWViewController.swift */,
+				BC7DC37A20128F6B00D28FC0 /* ResultViewController.swift */,
 				BC5D431720105D1900C43760 /* Main.storyboard */,
 				BC5D431A20105D1900C43760 /* Assets.xcassets */,
 				BC5D431C20105D1900C43760 /* LaunchScreen.storyboard */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC5D431620105D1900C43760 /* ViewController.swift in Sources */,
+				BC5D431620105D1900C43760 /* NESWViewController.swift in Sources */,
 				BC5D431420105D1900C43760 /* AppDelegate.swift in Sources */,
+				BC7DC37B20128F6B00D28FC0 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QBBBZ483H;
 				INFOPLIST_FILE = "NESW-direction-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.NESW-direction-app";
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QBBBZ483H;
 				INFOPLIST_FILE = "NESW-direction-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.william-tsai.NESW-direction-app";
